@@ -1,4 +1,4 @@
-baseURL =  "http://localhost:5000/blog"
+baseURL  =  "http://localhost:5000/blog"
 languageCode = "en-us"
 title = "Salesforce CMS + hugo"
 theme = "parsa-hugo-personal-blog-theme"
