@@ -1,7 +1,7 @@
 baseURL = "http://localhost:5000/blog"
 languageCode = "en-us"
 title = "Salesforce CMS + hugo"
-theme = "parsa-hugo"
+theme = "parsa-hugo-personal-blog-theme"
 summaryLength = "10"
 paginate = 6
 
