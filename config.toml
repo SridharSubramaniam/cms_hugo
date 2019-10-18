@@ -1,4 +1,4 @@
-baseURL  =  "https://desolate-caverns-52307.herokuapp.com/"
+baseURL   =  "https://desolate-caverns-52307.herokuapp.com/"
 languageCode = "en-us"
 title = "Salesforce CMS + hugo"
 theme = "parsa-hugo-personal-blog-theme"
