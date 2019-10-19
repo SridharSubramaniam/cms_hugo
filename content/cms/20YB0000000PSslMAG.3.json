@@ -1,0 +1,38 @@
+[{
+    "associations": {
+        "topics": [
+            {
+                "id": "0TOB00000012g9lOAA",
+                "name": "Best Beans"
+            },
+            {
+                "id": "0TOB00000012g9nOAA",
+                "name": "Blog"
+            }
+        ]
+    },
+    "contentNodes": {
+        "bannerImage": {
+            "altText": "grain",
+            "altUrl": null,
+            "mediaType": "Image",
+            "mimeType": null,
+            "nodeType": "Media",
+            "title": null,
+            "url": "https://c1.sfdcstatic.com/content/dam/web/en_us/www/images/home/hp-values-customer.jpg"
+        },
+        "body": {
+            "nodeType": "RichText",
+            "value": "<p>What is the key to a successful office? <b>Quality Coffee.</b> You probably thought it was equal pay and health care benefits, and you would be right, but that’s not the focus of this post. Anyway, you may think that quality isn’t that important, at the end of the day coffee is coffee and as long as you're caffeinated, who cares? But I’m here to tell you that it is <i>everything</i>. Providing quality coffee in the office has an immense positive impact on communication, productivity, and overall health.</p> \n<p><br></p> \n<p><b>The Coffee Break </b></p> \n<p><br></p> \n<p>The coffee break is essential for keeping up workplace morale. Sitting in the break room with a fresh cup of joe, talking about stressors with other colleagues allows for a sense of community to develop. Even better, coffee breaks provide space for potential collaboration and new perspectives. But how many times have you seen employees slip out of the office to go get a cup from down the street? By the time they return from the local joint, they’ve given up their break time, and are left sippin’ at their desk. If you're not supplying the good stuff, employees will seek it elsewhere, which is neither cost efficient or productive.</p> \n<p><br></p> \n<p><br></p> \n<p><b>The Facts</b></p> \n<p><br></p> \n<p>Alright, so why not just get an instant coffee machine and call it a win? Well, the way your pot of coffee tastes has a lot to do with when the beans were roasted. Coffee you find at the supermarket tends to have long overdue roast dates, meaning that those flavor compounds we savor have dissipated over time. To make matters worse, if your office is using single serve options, such as coffee pods, not only are you losing money, but you are also picking the least eco-friendly option on the market.</p> \n<p>That tin can of grounds that has been sitting on the counter for months is the reason your coffee is overly acidic, muddy, and has that distasteful flavor you dread. For this type of coffee to become bearable, people add mounds of sugar, non-natural flavors, and milk to their mug, none of which are healthy or sustainable options. At Joyride we’re drinking coffee that has been roasted within the week, making it so flavorful that we don’t even have creamer or sugar in the office.</p> \n<p style=\"text-align: center;\"><br></p> \n<p style=\"text-align: center;\"><b>FIND THE PERFECT HOT COFFEE PROGRAM FOR YOUR OFFICE TODAY!</b></p> \n<p>Finally, the individual spends the majority of their day in the workplace, so upping your beverage game is an easy and affordable way to say \"Hey, I appreciate you.\"</p> \n<p style=\"text-align: center;\">Great Coffee = Happy Employees = Success</p> \n<p style=\"text-align: center;\">This is a win win situation guys.</p> \n<p><br></p> \n<p><b>The Solution</b></p> \n<p><br></p> \n<p>Basically, if your office coffee is comparable to street sludge, employees are just going to feel undervalued, overworked, and overall uninspired. At this point, you're probably thinking: \"Oh jeez, I gotta get better coffee! But where will I ever find it?\" That part is easy. Joyride provides coffee that'll blow your mind. We source our beans from local roasters, and brew in house, making sure your coffee is always fresh, delicious, and cost efficient. Whether you’re in LA, NYC, or in between, Joyride will supply your office with coffee that is not only third wave, but also supports your community and promotes sustainability. So if your office is looking for hot coffee, cold brew, or both, Joyride will provide the best coffee program for you!!</p> \n<p><br></p> \n<p><br></p> \n<p><b>An Added Bonus </b></p> \n<p><br></p> \n<p>Joyride believes that the sky is the limit! We don’t just have coffee on our menu, but also teas, kombucha, and seltzer. Even better, all of our cold products come in kegs and with a kegerator that we install, so there’s no excess waste. Make your office a place employees look forward to in the morning and as always, Drink Joyride.</p>"
+        },
+        "title": {
+            "nodeType": "NameField",
+            "value": "title"
+        }
+    },
+    "managedContentId": "20YB0000000PSslMAG",
+    "publishedDate": "2019-07-09T13:03:40.000Z",
+    "title": "Why Your Office Needs Cafe Quality Coffee",
+    "type": "news",
+    "typeLabel": "News"
+}]

@@ -3,13 +3,42 @@
   {{ if .Site.Params.homeLayoutToggle }}
 
   <!-- Loop through Blogs from CMS-->
-  {{ $dataJ := getJSON "content/cms/index.json" }}
-  {{ range getJSON "content/cms/index.json" }}
-    <h1> {{ .name }}</h1>
+  <section>
+      <div class="container-fluid p-sm-0">
+        <div class="row featured-post-slider">
+
+            {{ $folder := "/content/cms"}}
+  {{ if fileExists $folder }}
+    {{ $files := readDir $folder }}
+    {{with $folder}}
+      {{ range $files }}
+      {{ $fileName :=  printf "%s/%s"  $folder .Name }}
+      {{ range getJSON $fileName }}
+        <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+            <article class="card bg-dark text-center text-white border-0 rounded-0">
+              <img class="card-img rounded-0 img-fluid w-100" src="{{ .contentNodes.bannerImage.url}}" alt="post-thumb">
+              <div class="card-img-overlay">
+                <div class="card-content">
+                  <!--p class="text-uppercase">{{.typeLabel}}</p>
+                  <h4 class="card-title mb-4"><a class="text-white" href="{{.Permalink}}">{{.title}}</a></h4>
+                  <a class="btn btn-outline-light" href="{{.Permalink}}">read more</a-->
+                </div>
+              </div>
+            </article>
+          </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
   {{ end }}
+        </div>
+      </div>
+    </section>
+
+    
+
 
   <!-- featured post -->
-  <section>
+  <!--section>
     <div class="container-fluid p-sm-0">
       <div class="row featured-post-slider">
         {{ range (where .Site.RegularPages "Type" "featured")}}
@@ -29,7 +58,7 @@
       </div>
     </div>
   </section>
-  <!-- /featured post -->
+  <-- /featured post -->
 
   <!-- blog post -->
   <section class="section">
