@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1085187,
+        "description": "The root folder for assets",
+        "enterpriseId": 1487832,
+        "memberId": 1487832,
+        "name": "Content Builder",
+        "parentId": 0,
+        "categoryType": "asset"
+    },
+    {
+        "id": 1099063,
+        "description": "",
+        "enterpriseId": 1487832,
+        "memberId": 1487832,
+        "name": "sample",
+        "parentId": 1085187,
+        "categoryType": "asset"
+    }
+]
